@@ -1,4 +1,4 @@
-exports.promiseToGo = async function(promise) {
+const promiseToGo = async function(promise) {
     try {
       let data = await promise
       return {data: data, error: null}
@@ -6,3 +6,5 @@ exports.promiseToGo = async function(promise) {
       return {data: null, error: error}
     }
 }
+
+module.exports = promiseToGo
