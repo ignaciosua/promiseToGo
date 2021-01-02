@@ -1,6 +1,6 @@
 ### Promise to GO
 
-A library to transform Promises like golang 
+A helper library to transform javascript promises like you will handle variable values in golang 
 
 ### Repository
 
@@ -17,10 +17,13 @@ A library to transform Promises like golang
 ```javascript
 import promiseToGo from 'promiseToGo'
 
-async function () {
-	let {data, error}	= await promiseToGo(aPromiseToExecute )
-	if(error) return console.log(error);
-	console.log(data);
-}
+  async function MyCustomFunction() {
+    //Pass the promise you want and receive an object with next values {data, error}
+    let { data, error } = await promiseToGo(aPromiseToExecute);
+    //if error break the flow!
+    if (error) return console.log(error);
+    //otherwise continue executing the program.
+    console.log(data);
+  }
 
 ```
