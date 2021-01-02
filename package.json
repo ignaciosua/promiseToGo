@@ -1,6 +1,6 @@
 {
   "name": "promisetogo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Promises like golang in javascript",
   "main": "index.js",
   "scripts": {
