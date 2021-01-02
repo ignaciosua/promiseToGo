@@ -1,6 +1,6 @@
 ### Promise to GO
 
-A helper library to transform javascript promises like you will handle variable values in golang 
+A helper library to transform javascript promises like golang.
 
 ### Repository
 
