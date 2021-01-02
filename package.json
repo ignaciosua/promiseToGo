@@ -8,14 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ignaciosua/promisetogo.git"
+    "url": "https://github.com/ignaciosua/promiseToGo.git"
   },
   "keywords": [
     "Promises",
     "javascript",
-    "golang"
+    "golang",
+    "promisetogo"
   ],
+  "bugs":{
+    "url":"https://github.com/ignaciosua/promiseToGo/issues"
+  },
   "author": "ignaciosua.h@gmail.com",
   "license": "ISC",
-  "homepage": "https://github.com/ignaciosua/promisetogo.git"
+  "homepage": "https://github.com/ignaciosua/promiseToGo.git"
 }
