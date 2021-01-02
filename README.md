@@ -6,13 +6,11 @@ A helper library to transform javascript promises like you will handle variable 
 
 [Promise to go repository](https://github.com/ignaciosua/promiseToGo)
 
-
-####Inline code
+### How to Install
 
 `$ npm install promisetogo`
 
-
-####Javascript　
+### How to Use
 
 ```javascript
 import promiseToGo from 'promiseToGo'
