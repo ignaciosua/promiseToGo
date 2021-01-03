@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ignaciosua/promiseToGo.git"
+    "url": "https://github.com/ignaciosua/promisetogo.git"
   },
   "keywords": [
     "Promises",
@@ -17,9 +17,9 @@
     "promisetogo"
   ],
   "bugs":{
-    "url":"https://github.com/ignaciosua/promiseToGo/issues"
+    "url":"https://github.com/ignaciosua/promisetogo/issues"
   },
   "author": "ignaciosua.h@gmail.com",
   "license": "ISC",
-  "homepage": "https://github.com/ignaciosua/promiseToGo.git"
+  "homepage": "https://github.com/ignaciosua/promisetogo.git"
 }
