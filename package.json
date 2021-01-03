@@ -4,7 +4,7 @@
   "description": "Promises like golang in javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -16,10 +16,13 @@
     "golang",
     "promisetogo"
   ],
-  "bugs":{
-    "url":"https://github.com/ignaciosua/promisetogo/issues"
+  "bugs": {
+    "url": "https://github.com/ignaciosua/promisetogo/issues"
   },
   "author": "ignaciosua.h@gmail.com",
   "license": "ISC",
-  "homepage": "https://github.com/ignaciosua/promisetogo.git"
+  "homepage": "https://github.com/ignaciosua/promisetogo.git",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
 }
