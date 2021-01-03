@@ -15,7 +15,7 @@ A helper library to transform javascript promises like golang.
 ```javascript
 import promisetogo from 'promisetogo'
 
- Serial Calls
+ //Serial Calls
   async function MyCustomFunction() {
     //Pass the promise you want and receive an object with next values {data, error}
     let { data, error } = await promisetogo(aPromiseToExecuteOne);
@@ -28,7 +28,7 @@ import promisetogo from 'promisetogo'
     console.log(data);
   }
   
-  Parallel calls
+  //Parallel calls
   
    async function MyCustomFunction() {
     //Pass the promise you want and receive an object with next values {data, error}
