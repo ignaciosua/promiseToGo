@@ -13,13 +13,13 @@ A helper library to transform javascript promises like golang.
 ### How to Use
 
 ```javascript
-import promiseToGo from 'promiseToGo'
+import promisetogo from 'promisetogo'
 
   async function MyCustomFunction() {
     //Pass the promise you want and receive an object with next values {data, error}
     let { data, error } = await promiseToGo(aPromiseToExecute);
     //if error break the flow!
-    if (error) return console.log(error);
+    if (error) return console.error(error);
     //otherwise continue executing the program.
     console.log(data);
   }
